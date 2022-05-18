@@ -1,0 +1,36 @@
+{
+  "canisters": {
+    "async_actors": {
+      "candid": "src/async_actors/async_actors.did",
+      "package": "async_actors",
+      "type": "rust"
+    },
+    "async_actors_assets": {
+      "dependencies": [
+        "async_actors"
+      ],
+      "frontend": {
+        "entrypoint": "src/async_actors_assets/src/index.html"
+      },
+      "source": [
+        "src/async_actors_assets/assets",
+        "dist/async_actors_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.9.3",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
