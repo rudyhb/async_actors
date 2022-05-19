@@ -14,6 +14,46 @@
       "candid": "src/actor2/actor2.did",
       "package": "actor2",
       "type": "rust"
+    },
+    "actor2_3": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_4": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_5": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_6": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_7": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_8": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_9": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_10": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
     }
   },
   "defaults": {
