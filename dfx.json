@@ -1,22 +1,19 @@
 {
   "canisters": {
-    "async_actors": {
-      "candid": "src/async_actors/async_actors.did",
-      "package": "async_actors",
+    "actor1": {
+      "candid": "src/actor1/actor1.did",
+      "package": "actor1",
       "type": "rust"
     },
-    "async_actors_assets": {
-      "dependencies": [
-        "async_actors"
-      ],
-      "frontend": {
-        "entrypoint": "src/async_actors_assets/src/index.html"
-      },
-      "source": [
-        "src/async_actors_assets/assets",
-        "dist/async_actors_assets/"
-      ],
-      "type": "assets"
+    "actor2_1": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
+    "actor2_2": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
     }
   },
   "defaults": {
