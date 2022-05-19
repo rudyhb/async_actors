@@ -18,6 +18,7 @@ const ACTOR2S: [&'static str; 10] = [
 #[ic_cdk_macros::update]
 async fn run() {
     ic_cdk::println!("start actor1");
+
     let principals: Vec<_> = ACTOR2S
         .iter()
         .map(|p| Principal::from_text(p).unwrap())
@@ -39,5 +40,12 @@ async fn run() {
             .collect::<Vec<String>>()
             .join("\n")
     );
+
+    // let (r1, r2): (Result<(Nat,),_>, Result<(Nat,), _>) = futures::future::join(
+    //     call::call(Principal::from_text(ACTOR2S[0]).unwrap(), "get_num", ()),
+    //     call::call(Principal::from_text(ACTOR2S[1]).unwrap(), "get_num", ()),
+    // ).await;
+    // ic_cdk::println!("responses: {}, {}", r1.unwrap().0, r2.unwrap().0);
+
     ic_cdk::println!("end actor1");
 }
