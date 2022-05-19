@@ -5,6 +5,11 @@
       "package": "actor1",
       "type": "rust"
     },
+    "actor2_0": {
+      "candid": "src/actor2/actor2.did",
+      "package": "actor2",
+      "type": "rust"
+    },
     "actor2_1": {
       "candid": "src/actor2/actor2.did",
       "package": "actor2",
@@ -46,11 +51,6 @@
       "type": "rust"
     },
     "actor2_9": {
-      "candid": "src/actor2/actor2.did",
-      "package": "actor2",
-      "type": "rust"
-    },
-    "actor2_10": {
       "candid": "src/actor2/actor2.did",
       "package": "actor2",
       "type": "rust"
